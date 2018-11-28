@@ -1,0 +1,36 @@
+﻿#container{
+    height:100%;
+    overflow:hidden;
+}
+
+#nav{
+    float:left;
+    height:100%;
+    width:224px;
+    background-color:#333333;
+}
+
+    #nav ul {
+        display: table;
+        list-style-type: none;
+    }
+
+#nav ul li{
+    width:224px;
+    display:table-cell;
+    color:white;
+    text-align:center;
+   padding:16px;
+}
+
+#nav ul li:hover{
+    background-color:#111111;
+}
+
+#content{
+    height:100%;
+    width:auto;
+    background-color:silver;
+    overflow:hidden;
+}
+
